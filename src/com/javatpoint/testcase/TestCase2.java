@@ -13,6 +13,7 @@ public class TestCase2 {
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 		System.out.println("before class");
+		System.out.println("This stateent will execute before all the test");
 	}
 	@Before
 	public void setUp() throws Exception {
