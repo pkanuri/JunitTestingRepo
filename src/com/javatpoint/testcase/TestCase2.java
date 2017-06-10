@@ -12,7 +12,7 @@ public class TestCase2 {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		System.out.println("before class");
+		System.out.println("before class print statement");
 	}
 	@Before
 	public void setUp() throws Exception {
